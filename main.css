@@ -1,0 +1,105 @@
+.Homework {
+    display: flex;
+}
+
+.row {
+  display: inline-block;
+}
+
+.child {
+  height: 250px;
+  width: 250px;
+  border: 5px solid white;
+}
+
+.first {
+  background-color: #003d1c;
+  border-radius: 50%;
+}
+
+.second {
+  background-color: #6875ec;
+  border-radius: 15%;
+}
+
+.third {
+  background-color: #56c288;
+  border-bottom-left-radius: 250px;
+}
+
+.fourth {
+  background-color: #ccd1d7;
+  border-radius: 50%;
+}
+
+.button {
+    margin: 250px;
+    width: 300px;
+    height: 150px;
+    background-color: #ff0101;
+    border-radius: 25%;
+    position: relative;
+}
+
+.play {
+        width: 0; 
+        height: 0; 
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 60px solid white;
+        position: absolute;
+        top: 45px;
+        left: 120px;
+}
+
+
+.positioner {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.nino {
+    width: 100px;
+    height: 200px;
+}
+.nina {
+    width: 200px;
+    height: 100px;
+}
+
+.uno {
+    background-color: #f6b800;
+    border-top-right-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: absolute;
+    top: 100px;
+    
+}
+.dos {
+    background-color: #31a452;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    left: 100px;
+
+}
+.tres {
+    background-color: #e64132 ;
+    border-top-right-radius: 200px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.quatro {
+    background-color: #4081ef;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
